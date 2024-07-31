@@ -1,0 +1,126 @@
+
+header{
+    background-color: white;
+}
+footer{
+    background-color: white;
+}
+
+
+
+
+.card:hover{
+    transform: scale(1.05);
+    transition-duration:0.5s;
+}
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.indexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 15px black, 0 0 15px black;
+    height: 600px;
+}
+
+.bgimg{
+    z-index: -2;
+    position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+    .BrandsContainer{
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+    
+    .BrandsContainer .brand{
+        text-decoration: none;
+        color: white;
+    }
+    .brand:hover{
+        transform: scale(1.2);
+        transition-duration:0.5s;
+        font-weight: bold;
+    }
+  }
+
+@media screen and (min-width: 480px) {
+    .BrandsContainer{
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    .BrandsContainer .brand{
+        text-decoration: none;
+        color: white;
+    }
+    .brand:hover{
+        transform: scale(1.2);
+        transition-duration:0.5s;
+        font-weight: bold;
+    }
+    
+    
+  }
+  @media screen and (min-width: 750px) {
+    .BrandsContainer{
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+        font-size: 1.75rem;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+    
+    .BrandsContainer .brand{
+        text-decoration: none;
+        color: white;
+    }
+    .brand:hover{
+        transform: scale(1.2);
+        transition-duration:0.5s;
+        font-weight: bold;
+    }
+  }
+  
+  @media screen and (min-width: 1080px) {
+    .BrandsContainer{
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+    
+    .BrandsContainer .brand{
+        text-decoration: none;
+        color: white;
+    }
+    .brand:hover{
+        transform: scale(1.2);
+        transition-duration:0.5s;
+        font-weight: bold;
+    }
+  }
+  
